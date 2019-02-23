@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28606.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKUDraw.Server", "SKUDraw\SKUDraw.Server\SKUDraw.Server.csproj", "{FE2796BD-81D3-484E-9144-381B9EB23555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKUDraw.App", "SKUDraw\SKUDraw.App\SKUDraw.App.csproj", "{949E5D6C-172B-4969-8A30-D79278480E4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Option A", "Option A", "{A8F6DE27-3FA9-40F9-AEDC-A01218564F6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Option B", "Option B", "{FF4ED572-0020-470F-9C04-9C86135479ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKuDraw2.Server", "SKuDraw2.Server\SKuDraw2.Server.csproj", "{40F8361C-0906-4202-9178-4FA672CB6BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKuDraw2.Client", "SKuDraw2.Client\SKuDraw2.Client.csproj", "{0E9DCC32-B660-4246-A2A5-471740DD5994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKuDraw2.Shared", "SKuDraw2.Shared\SKuDraw2.Shared.csproj", "{35D2DFBF-096F-4FD6-A7D9-136709B55F5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE2796BD-81D3-484E-9144-381B9EB23555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2796BD-81D3-484E-9144-381B9EB23555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2796BD-81D3-484E-9144-381B9EB23555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2796BD-81D3-484E-9144-381B9EB23555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949E5D6C-172B-4969-8A30-D79278480E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949E5D6C-172B-4969-8A30-D79278480E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949E5D6C-172B-4969-8A30-D79278480E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949E5D6C-172B-4969-8A30-D79278480E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F8361C-0906-4202-9178-4FA672CB6BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F8361C-0906-4202-9178-4FA672CB6BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F8361C-0906-4202-9178-4FA672CB6BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F8361C-0906-4202-9178-4FA672CB6BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E9DCC32-B660-4246-A2A5-471740DD5994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9DCC32-B660-4246-A2A5-471740DD5994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E9DCC32-B660-4246-A2A5-471740DD5994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E9DCC32-B660-4246-A2A5-471740DD5994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35D2DFBF-096F-4FD6-A7D9-136709B55F5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D2DFBF-096F-4FD6-A7D9-136709B55F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D2DFBF-096F-4FD6-A7D9-136709B55F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D2DFBF-096F-4FD6-A7D9-136709B55F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE2796BD-81D3-484E-9144-381B9EB23555} = {A8F6DE27-3FA9-40F9-AEDC-A01218564F6E}
+		{949E5D6C-172B-4969-8A30-D79278480E4A} = {A8F6DE27-3FA9-40F9-AEDC-A01218564F6E}
+		{40F8361C-0906-4202-9178-4FA672CB6BE3} = {FF4ED572-0020-470F-9C04-9C86135479ED}
+		{0E9DCC32-B660-4246-A2A5-471740DD5994} = {FF4ED572-0020-470F-9C04-9C86135479ED}
+		{35D2DFBF-096F-4FD6-A7D9-136709B55F5F} = {FF4ED572-0020-470F-9C04-9C86135479ED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9ED522F1-7040-4D50-8D38-3EC3AC9A2A28}
+	EndGlobalSection
+EndGlobal
